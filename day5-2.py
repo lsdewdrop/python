@@ -56,7 +56,7 @@ class Fraction():
     def __mul__(self, other):
         print str(self.numerator*other.numerator)+"/"+str(self.denominator*self.denominator)
 
-    def __truediv__(self, other):
+    def __div__(self, other):
         mo=other.numerator
         ja=other.denominator
 
@@ -66,7 +66,7 @@ class Fraction():
 fac1=Fraction(2,3)
 fac2=Fraction(5,3)
 
-fac1.__add__(fac2)
-fac1.__sub__(fac2)
-fac1.__mul__(fac2)
-fac1.__truediv__(fac2)
+fac1+fac2
+fac1-fac2
+fac1*fac2
+fac1/fac2
