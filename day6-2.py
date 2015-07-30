@@ -92,7 +92,7 @@ class Sphere(ThreeDim):
         self.nulby=4*3.14*self.r
 
     def calcVolume(self):
-        self.volume=4*3.14*self.r*self.r*self.r/4
+        self.volume=4*3.14*self.r*self.r*self.r/3
 
 
 rec=Rectangle(2,3)
